@@ -4,23 +4,8 @@ title: "citRon"
 output:
     github_document
 ---
-vignette: >
-  %\VignetteIndexEntry{citRon vignette}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
 ```{r,include=FALSE}
-library(citRon)
-```
-
-```{r setup}
 library(citRon)
 ```
 
