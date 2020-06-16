@@ -1,33 +1,3 @@
----
-title: "citRon"
-<<<<<<< HEAD
-output: rmarkdown::html_vignette
-#output: pdf_document #For a pdf version of the vignette
-vignette: >
-  %\VignetteIndexEntry{citRon vignette}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
-```{r setup}
-=======
----
-output:
-    github_document
----
-
-```{r,include=FALSE}
->>>>>>> 9956bc278d303f428a4e961911ea3444798a154b
-library(citRon)
-```
-
 # citRon: Jacquemus-themed colour palettes for Sarah's MPhil thesis
 Jacquemus is a French fashion label headed by Simon Porte Jacquemus that has achieved cult status over the 
 past couple of years thanks to its whimsical, casual styles and eyebrow-raising accessories
@@ -67,6 +37,10 @@ To install `citRon` from GitHub:
 devtools::install_github("beeysian/citRon")
 ```
 
+To load the library:
+```{r setup}
+library(citRon)
+```
 
 ## The Palettes
 
@@ -115,4 +89,5 @@ library(ggplot2)
 ggplot(diamonds) + geom_point(aes(x = carat, y = price, color = clarity)) +
   scale_colour_citron(palette = "citron_grad")
 ```
+
 
