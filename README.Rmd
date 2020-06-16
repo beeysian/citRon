@@ -1,7 +1,9 @@
 ---
 title: "citRon"
-output: rmarkdown::html_vignette
-#output: pdf_document #For a pdf version of the vignette
+---
+output:
+    github_document
+---
 vignette: >
   %\VignetteIndexEntry{citRon vignette}
   %\VignetteEngine{knitr::rmarkdown}
@@ -13,6 +15,9 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+```
+```{r,include=FALSE}
+library(citRon)
 ```
 
 ```{r setup}
