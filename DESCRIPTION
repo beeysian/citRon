@@ -18,3 +18,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/beeysian/citRon
+BugReports: https://github.com/beeysian/citRon/issues
